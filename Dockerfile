@@ -1,6 +1,6 @@
 #build phase
 
-FROM node:alpine as builder
+FROM node:alpine
 
 WORKDIR /app
 COPY package.json .
